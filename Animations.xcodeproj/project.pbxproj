@@ -15,6 +15,7 @@
 		F136E3F21AF9534000CE19CB /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = F136E3F01AF9534000CE19CB /* LaunchScreen.xib */; };
 		F136E3FE1AF9534000CE19CB /* AnimationsTests.m in Sources */ = {isa = PBXBuildFile; fileRef = F136E3FD1AF9534000CE19CB /* AnimationsTests.m */; };
 		F136E4091AF9545700CE19CB /* GameBehavior.m in Sources */ = {isa = PBXBuildFile; fileRef = F136E4081AF9545700CE19CB /* GameBehavior.m */; };
+		F192B9C91B0528BB00F31A15 /* FrameByFrameVC.m in Sources */ = {isa = PBXBuildFile; fileRef = F192B9C81B0528BB00F31A15 /* FrameByFrameVC.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -43,6 +44,8 @@
 		F136E3FD1AF9534000CE19CB /* AnimationsTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AnimationsTests.m; sourceTree = "<group>"; };
 		F136E4071AF9545700CE19CB /* GameBehavior.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GameBehavior.h; sourceTree = "<group>"; };
 		F136E4081AF9545700CE19CB /* GameBehavior.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GameBehavior.m; sourceTree = "<group>"; };
+		F192B9C71B0528BB00F31A15 /* FrameByFrameVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FrameByFrameVC.h; sourceTree = "<group>"; };
+		F192B9C81B0528BB00F31A15 /* FrameByFrameVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FrameByFrameVC.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -88,7 +91,10 @@
 				F136E4081AF9545700CE19CB /* GameBehavior.m */,
 				F136E3E81AF9534000CE19CB /* ViewController.h */,
 				F136E3E91AF9534000CE19CB /* ViewController.m */,
+				F192B9C71B0528BB00F31A15 /* FrameByFrameVC.h */,
+				F192B9C81B0528BB00F31A15 /* FrameByFrameVC.m */,
 				F136E3EB1AF9534000CE19CB /* Main.storyboard */,
+				F136E3EE1AF9534000CE19CB /* Images.xcassets */,
 				F136E3E11AF9534000CE19CB /* Supporting Files */,
 			);
 			path = Animations;
@@ -97,7 +103,6 @@
 		F136E3E11AF9534000CE19CB /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
-				F136E3EE1AF9534000CE19CB /* Images.xcassets */,
 				F136E3F01AF9534000CE19CB /* LaunchScreen.xib */,
 				F136E3E51AF9534000CE19CB /* AppDelegate.h */,
 				F136E3E61AF9534000CE19CB /* AppDelegate.m */,
@@ -226,6 +231,7 @@
 			files = (
 				F136E3EA1AF9534000CE19CB /* ViewController.m in Sources */,
 				F136E3E71AF9534000CE19CB /* AppDelegate.m in Sources */,
+				F192B9C91B0528BB00F31A15 /* FrameByFrameVC.m in Sources */,
 				F136E3E41AF9534000CE19CB /* main.m in Sources */,
 				F136E4091AF9545700CE19CB /* GameBehavior.m in Sources */,
 			);
@@ -422,6 +428,7 @@
 				F136E4031AF9534000CE19CB /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		F136E4041AF9534000CE19CB /* Build configuration list for PBXNativeTarget "AnimationsTests" */ = {
 			isa = XCConfigurationList;
@@ -430,6 +437,7 @@
 				F136E4061AF9534000CE19CB /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
